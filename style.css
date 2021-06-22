@@ -1,0 +1,47 @@
+.name-tag {
+    margin: 2px;
+    height: 280px;
+    width: 400px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+.top,
+.bottom {
+    background-color: red;
+    width: 100%;
+}
+
+.top {
+    border-radius: 10px 10px 0px 0px;
+}
+
+.bottom { 
+    height:35px;
+    border-radius: 0px 0px 5px 5px;
+}
+
+
+h1,
+h2 {
+    text-align: center;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+} 
+
+h1 {
+    font-size: 45pt;
+}
+h2 {
+    font-weight: normal;
+}
+
+.middle {
+    background-color: white;
+    font-family: cursive;
+    font-size: 50pt;
+}
