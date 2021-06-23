@@ -8,27 +8,33 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link 
-        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" 
-        rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-     href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">    
 </head>
  <header>
         <p>Triana's Name Tag Site</p>
 </header>
 <body>
     <main>
-        <input type="text" name="name" id="name-input"/>
-        <button id="submit">Change Name</button>
+        <div>
+            <input type="text" name="name" id="name-input"/>
+            <button id="submit">What's your name?</button>
+        </div>
+        <div>
+            <input type="text" pronouns="pronouns" id="pronouns-input"/>
+            <button id="pronouns-submit">Preferred pronouns</button>
+        </div>
         <div id="name-tag" class="name-tag">
             <section id= "top-section" class="top">
                 <h1>Hello</h1>
                 <h2>My name is</h2>
             </section>
-            <section id="name-section" class="middle">Triana</section>
+            <section id="middle-section">
+            <h3 id="name-section">Triana</h3>
+            <h4 id="pronouns-section" >she/her</h4>
+            </section>
             <section id="bottom-section" class="bottom"></section>  
         </div>
         <section class="side-bar"> 
