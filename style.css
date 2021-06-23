@@ -1,7 +1,7 @@
 .name-tag {
     margin: 2px;
-    height: 280px;
-    width: 400px;
+    height: 300px;
+    width: 350px;
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -9,11 +9,33 @@
     text-align: center;
     font-family: 'Poppins', sans-serif;
     border-radius: 10px;
+    position: absolute;
 }
+
 
 body {
     background-color: greenyellow;
 }
+
+header {
+    flex-direction: column;
+    justify-content:right;
+    text-align: center;
+}
+
+.content {
+    background-color: whitesmoke;
+    border-radius: 10px;
+    height: 100%;
+    width: 175px;
+    float: right;
+    margin: 0px;
+    padding-top: 10px;
+    text-align: center;
+
+   
+}
+
 .top,
 .bottom {
     background-color: red;
@@ -50,4 +72,12 @@ h2 {
     background-color: white;
     font-family: cursive;
     font-size: 50pt;
+}
+
+
+footer {
+    position: absolute;
+    bottom: 0;
+    font-size: x-small;
+    font-family: monospace;
 }
