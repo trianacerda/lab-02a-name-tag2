@@ -107,7 +107,12 @@ h4 {
 
 }
 
-
+#colors-button {
+    background-color: aquamarine;
+    border-radius: 5px;
+    font-size: large;
+    color: blueviolet;
+};
 
 
 footer {
@@ -116,4 +121,19 @@ footer {
     font-size: x-small;
     font-family: monospace;
     color: honeydew;
+}
+
+#submit, #pronouns-submit, #color-button, #fonts-button{
+    background-color: lightgoldenrodyellow;
+    border-radius: 5px;
+}
+
+#name-input, #pronouns-input{
+    background-color: thistle;
+    border-width: 1px;
+    border-radius: 5px;
+}
+
+#colors, #fonts{
+    border-radius: 2px;
 }
