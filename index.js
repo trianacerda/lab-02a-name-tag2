@@ -1,3 +1,5 @@
+const color = document.getElementById('colors');
+
 console.log("hello world!");
 
 const nameTag = document.getElementById('name-tag');
@@ -10,6 +12,7 @@ const nameInput = document.getElementById('name-input');
 
 const submitButton =document.getElementById('submit')
 submitButton.addEventListener('click', (e)=>{
+   console.log(color.value)
     nameSection.innerText = nameInput.value;
 })
 
